@@ -7,7 +7,7 @@ def typgen(file_name, n_lines, comand):
         
     with open(file_name[0:-4] + '.typ', 'w') as file_out:
         
-        file_out.write('G:Menu\n\n')
+        file_out.write('\nG:Menu\n\n')
         
         parts = ['Part_0']       
         file_out.write('*:' + parts[-1] + '\n')
